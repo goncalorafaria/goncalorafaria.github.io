@@ -47,6 +47,13 @@
         {% endfor %}
       </div>
     {% endif %}
+    <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+      <p>MSc Finalist at Instituto Superior Técnico</p>
+    </div>
+    <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+      <p>Machine Learning Engineer @dotmoovs</p>
+    </div>
+
     {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     {% endif %}
